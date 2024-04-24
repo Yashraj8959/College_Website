@@ -2,22 +2,20 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 
-
 export default function Header() {
   return (
     <div>
       <div className="top-menu">
-        <div className="conatiner">
+        <div className="container">
           <div className="col-md-4">
             <ul>
               <li>
-                <a href="">Screen Reader</a>
+                {/* <a href="#main-content">Skip to main content</a> */}
               </li>
-              <li>Skip to main content</li>
             </ul>
           </div>
           <div className="col-md-8">
-            <ul class="list-inline list-unstyled pull-right">
+            <ul className="list-inline list-unstyled pull-right">
               <li>youtube</li>
               <li>collaboration</li>
               <li>RTI</li>

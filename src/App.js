@@ -1,17 +1,16 @@
-
+import React from 'react';
 import './App.css';
-import Home from './screens/Home';
-import { BrowserRouter as Router , Routes ,Route } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
+import AllRoutes from './pages/AllRoutes/AllRoutes.jsx';
 function App() {
   return (
     <div className="App">
-    <Router>
-      <div>
-        <Routes>
-          <Route exact path = "/" element={<Home/>}/>
-        </Routes>
-      </div>
-    </Router>
+      {/* <h1>Welcome to UIT RGPV SHIVPURI</h1> */}
+
+      <Router>
+        <AllRoutes />
+      </Router>
+    
       
     </div>
   );
